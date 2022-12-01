@@ -1,0 +1,183 @@
+@keyframes porta1 {
+    0%{
+        color: purple;
+    }
+    100%{
+        color: yellow;
+     
+    }
+
+}
+
+@keyframes porta2{
+    0%{
+        color: yellow;
+    }
+    100%{
+        color: purple;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+/*cabeçalho*/
+
+header{
+    height: 100px;
+    width: 97.7vw;
+    display: flex;
+    border: outset 7px rgb(87, 76, 76);
+    background: linear-gradient(rgb(103, 1, 1), red);
+}
+
+.logo {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.tlogos{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
+
+.tlogo{
+    animation: porta1 2s alternate-reverse infinite;
+}
+
+.tlogo1{
+    animation: porta2 2s alternate-reverse infinite;
+}
+
+.pesquisa{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    justify-content: end;
+}
+
+.pesquisa input{
+    margin-right: 1%;
+    text-align: center;   
+    border-radius: 15px;
+    color: black;
+}
+
+.pesquisa a{
+    color: black;
+    margin-right: 6%;
+}
+.pesquisa button{
+    color: black;
+}
+
+/*fim do cabeçalho*/
+
+/*rodapé*/
+
+
+
+/*categorias*/
+
+.categorias{
+    height: 100%;
+    width: 100%;
+}
+
+.cate{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cate1{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 10px;
+    gap: 10%;
+}
+
+.a1{
+    height: 10%;
+    width: 93%;
+    border: 2px black outset;
+    background-color: rgb(75, 4, 75);
+    text-decoration: none;
+}
+
+.l1:hover{
+    scale: 1.5;
+    transition: 1s;
+}
+
+.l2:hover{
+    scale: 1.5;
+    transition: 1s;
+}
+
+.l3:hover{
+    scale: 1.5;
+    transition: 1s;
+}
+
+.l4:hover{
+    scale: 1.5;
+    transition: 1s;
+}
+
+.l5:hover{
+    scale: 1.5;
+    transition: 1s;
+}
+
+.l6:hover{
+    scale: 1.2;
+    transition: 1s;
+}
+
+
+/*fim do rodapé*/
+
+/* fundo */
+
+.fundo{
+    height: 120%;
+    width: 60%;
+    margin-left: 20%;
+    border: 1px white solid;
+    border-radius: 35px;
+    background:radial-gradient(rgb(90, 90, 90),black);
+}
+
+/*main*/
+
+
+
+/* footer */
+
+footer{
+    height: 2em;
+    width: 100%;
+    /* background-color: white;  */
+}
+
+

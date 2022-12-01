@@ -1,0 +1,526 @@
+/* tudo */
+
+p{
+    text-indent: 3%;
+}
+
+main{
+    height: 20%;
+    width: 100%;
+    margin-top: 4%;
+}
+
+/* rodapé */
+
+#rodape{
+    height: 50%;
+    width: 19%;
+    display: block;
+    position: fixed;
+    margin-top:3.8% ;
+    background-color: rgba(54, 2, 2, 0.7);
+    border: dotted 3px white;
+}
+
+.l1{
+    height: 6%;
+    width: 16%;
+    margin-left: 15px;
+}
+
+.l2{
+    height: 6%;
+    width: 14.5%;
+    margin-left: 15px;
+}
+
+.l3{
+    height: 6%;
+    width: 16.8%;
+    margin-left:15px;
+}
+
+.l4{
+    height: 6%;
+    width: 18%;
+    margin-left: 15px;
+}
+
+.l5{
+    height: 6%;
+    width: 20%;
+    margin-left: 15px;
+}
+
+.l6{
+    height: 6%;
+    width: 43%;
+    margin-left: 15px;
+}
+
+/* fim do rodapé */
+
+.dvideo{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+video{
+    height: 90%;
+    width: 90%;
+    box-shadow: 0 0 5px;
+}
+
+/* article */
+
+article{
+    height: 100%;
+    width: 100%;
+}
+
+article h2{
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+/* div secsinopse */
+.secsinopse{
+    padding-top: 1%;
+}
+
+article h3{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+/* div sechistória */
+.sechistoria{
+    padding: 1%;
+}
+
+.sechistoria a{
+    color: rgb(131, 131, 131);
+}
+
+.sechistoria a:hover{
+    color: purple;
+}
+
+.saibamais{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saibamais a{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    border: 1px white solid;
+}
+
+.saibamais a:hover{
+    transition: 1s;
+    scale: 1.1;
+}
+
+/* comentários */
+
+.comentarios{
+    height: 100%;
+    width: 100%;
+}
+
+.comentarios h3{
+    padding: 3%;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+.comentarios p{
+    padding: 1%;
+    font-size: larger;
+}
+
+.comentarios h4{
+    padding: 1%;
+    padding-left: 2%;
+}
+
+.div-a{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-a a{
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: gray;
+    border: 1px white solid;
+}
+
+.div-a a:hover{
+    transition: 1s;
+    scale: 1.1;
+}
+
+/* minha opinião */
+
+.minha-opiniao{
+    font-size: medium;
+}
+
+/* outros */
+
+.outros{
+    height: 50em;
+    width: 20%;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    position: absolute;
+    top: 110px;
+    left: 78vw;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.doutros{
+    height: 100%;
+    width: 90%;
+}
+
+.ha{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.pa{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.pa a{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 15px;
+}
+
+.pa a:hover{
+    transition: 1s;
+    scale: 1.2;
+} 
+
+.pb{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.pb a{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 15px;
+}
+
+.pb a:hover{
+    transition: 1s;
+    scale: 1.2;
+} 
+
+.pc{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.pc a{
+    height: 90%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 5%;
+    border: 1px white solid;
+    border-radius: 15px;
+}
+
+.pc a:hover{
+    transition: 1s;
+    scale: 1.2;
+}
+
+.pd{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.pd a{
+    height: 70%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 5%;
+    border: 1px white solid;
+    border-radius: 15px;
+}
+
+.pd a:hover{
+    transition: 1s;
+    scale: 1.2;
+} 
+
+  
+.ac{
+    display: flex;
+    justify-content: center;
+}
+
+.ac img{
+    height: 35%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.ad{
+    display: flex;
+    justify-content: center;
+}
+
+.ad img{
+    height: 20vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.doutros img:hover{
+    transition: 1s;
+    scale: 1.05;
+}
+
+figure {
+    height: 35%;
+    width: 75%;
+    border: 3px red  solid;
+    background-color: rgba(54, 2, 2, 0.7);
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    margin-left: 25px;
+    padding: 10px;
+    box-shadow: 3px 3px 7px red;
+}
+
+/* footer */
+
+footer p{
+    height: 100%;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+@media(max-width:700px){
+
+/*   cabeçalho */
+  header{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .logo{
+    height: 50%;
+    width: 30%;
+  }
+  
+  .tlogos{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tlogo{
+    height: 100%;
+    width: 50%;
+    display:flex;
+    font-size:x-large;
+    justify-content: end;
+  }
+
+  .tlogo1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    font-size:x-large;
+    justify-content: start;
+    align-items: center;
+  }
+
+    /*   pesquia */
+  .pesquisa{
+    height: 50%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: end;
+  }
+
+  .pesquisa input{
+    width: 50%;    
+  }
+
+    /*   rodapé */
+    /*   126% */
+    #rodape{
+      height: 10%;
+      width: 100%;
+      display: none;
+    }
+    
+    /*categorias*/
+    
+    .categorias{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .cate{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        padding-bottom: 3%;
+        justify-content: center;
+    }
+    
+    .cate1{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 0%;
+    }
+    
+    .a1{
+        height: 10%;
+        width: 93%;
+        border: 2px black outset;
+        background-color: rgb(75, 4, 75);
+        text-decoration: none;
+    }
+
+    /*  fundo  */
+
+  .fundo{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 31%;
+  }
+
+  /* outros */
+
+    .outros{
+    height: 110em;
+    width: 25%;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    position: absolute;
+    top: 260px;
+    left: 88%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    }
+
+    .doutros{
+    height: 100%;
+    width: 90%;
+    }
+
+    .ha{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    }
+
+    .pa{
+    height: 4%;
+    width: 100%;
+    }
+
+    .pa a{
+    height: 50%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 15px;
+    }
+
+    .ac{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    }
+
+    .doutros img{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    }
+
+
+}
+
