@@ -1,0 +1,27 @@
+#rodape{
+    height: 100vh;
+    width: 100vw;
+}
+
+.cate{
+    height: 20vh;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.cate1{
+    height: 60vh;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l1 a{
+    height: 1000px;
+    width: 100px;
+    background-color: yellow;
+}
